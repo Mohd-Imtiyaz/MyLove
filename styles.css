@@ -1,0 +1,54 @@
+   body {
+    font-family: 'Lovely Love', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./Static/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 150px;
+    background: linear-gradient(to right, #ffffff, #000000,#ffffff, #000000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .content {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5050;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  #noBtn {
+    position: absolute;
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 600px) {
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    h1 {
+      font-size: 24px; /* Adjust the font size for mobile view */
+    }
+  }
