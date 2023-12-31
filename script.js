@@ -1,5 +1,5 @@
 function showLove() {
-    document.getElementById('message').innerText = 'Jaan stay same jaan...💘';
+    document.getElementById('message').innerText = 'Jaan stay same jaan...💘 and dont worry ill be same for you untill end... and im always with you re...';
   }
   
   function changePosition() {
